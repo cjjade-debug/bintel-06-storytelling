@@ -1,0 +1,60 @@
+# ============================================================
+# CITATION.cff (How to cite this project)
+# ============================================================
+
+# REQ.UNIVERSAL: Professional open projects SHOULD include this file.
+# WHY: Support correct citation and attribution.
+# ALT: Internal or private repositories may omit citation metadata.
+# CUSTOM: Update author, repository, license, and keyword fields as needed.
+# USAGE: See https://citation-file-format.github.io/ for details.
+
+cff-version: "1.2.0"
+type: software
+
+title: "bintel-06-storytelling"
+version: "0.1.0"
+date-released: "2026-07-23"
+
+authors:
+  - family-names: Case
+    given-names: Denise M.
+    orcid: "https://orcid.org/0000-0001-6165-7389"
+    affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
+
+repository-code: "https://github.com/denisecase/bintel-06-storytelling"
+url: "https://github.com/denisecase/bintel-06-storytelling"
+license: MIT
+
+abstract: >
+  Business intelligence storytelling project.
+  Use reporting-ready data, pandas, and data visualizations
+  to answer a business question, identify key insights,
+  and communicate a supported recommendation.
+
+keywords:
+  - business-intelligence
+  - data-storytelling
+  - analytical-storytelling
+  - business-insights
+  - data-visualization
+  - reporting
+  - decision-support
+  - smart-sales
+  - professional-python
+  - reproducible-workflows
+  - ci-cd
+  - github-actions
+  - software-quality
+  - professional-practice
+  - python
+  - pandas
+  - matplotlib
+  - seaborn
+  - git
+  - github
+  - open-source
+  - uv
+  - ruff
+  - zensical
+
+message: "If using this work, please cite it as described in this file."
