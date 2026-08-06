@@ -21,8 +21,13 @@ authors:
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
 
-repository-code: "https://github.com/denisecase/bintel-06-storytelling"
-url: "https://github.com/denisecase/bintel-06-storytelling"
+  - family-names: Jade
+    given-names: CJ
+    orcid: "https://orcid.org/0000-0001-6165-7389"
+    affiliation: "Northwest Missouri State University, Maryville, MO, USA"
+
+repository-code: "https://github.com/cjjade-debug/bintel-06-storytelling"
+url: "https://github.com/cjjade-debug/bintel-06-storytelling"
 license: MIT
 
 abstract: >
