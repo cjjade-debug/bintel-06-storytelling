@@ -90,3 +90,48 @@
 2026-08-05 21:51:13 | INFO | BI | ========================
 2026-08-05 21:51:13 | INFO | BI | Executed successfully!
 2026-08-05 21:51:13 | INFO | BI | ========================
+2026-08-06 17:02:17 | INFO | BI | === RUN START ===
+2026-08-06 17:02:17 | INFO | BI | project=BI
+2026-08-06 17:02:17 | INFO | BI | repo_dir=bintel-06-storytelling
+2026-08-06 17:02:17 | INFO | BI | python=3.14.6
+2026-08-06 17:02:17 | INFO | BI | os=Windows 11
+2026-08-06 17:02:17 | INFO | BI | shell=powershell
+2026-08-06 17:02:17 | INFO | BI | cwd=.
+2026-08-06 17:02:17 | INFO | BI | github_actions=False
+2026-08-06 17:02:17 | INFO | BI | ========================
+2026-08-06 17:02:17 | INFO | BI | START main()
+2026-08-06 17:02:17 | INFO | BI | ========================
+2026-08-06 17:02:17 | INFO | BI | Input reporting data from: = data\reporting\sales_reporting_case.csv
+2026-08-06 17:02:17 | INFO | BI | CALL a function to load reporting-ready data........
+2026-08-06 17:02:17 | INFO | BI | Loading reporting-ready data
+2026-08-06 17:02:17 | INFO | BI |   Loaded 2392 reporting rows
+2026-08-06 17:02:17 | INFO | BI |   Verified 14 reporting columns
+2026-08-06 17:02:17 | INFO | BI | CALL a function to summarize sales by category........
+2026-08-06 17:02:17 | INFO | BI | Summarizing category sales for Region = 'East'
+2026-08-06 17:02:17 | INFO | BI |   Categories summarized: 4
+2026-08-06 17:02:17 | INFO | BI | CALL a function to select the leading category........
+2026-08-06 17:02:17 | INFO | BI |   Selected leading category for deeper analysis: Office
+2026-08-06 17:02:17 | INFO | BI | CALL a function to summarize monthly sales........
+2026-08-06 17:02:17 | INFO | BI | Summarizing monthly sales for Region = 'East'
+2026-08-06 17:02:17 | INFO | BI | Summarizing monthly sales for Category = 'Office'
+2026-08-06 17:02:17 | INFO | BI |   Months summarized: 12
+2026-08-06 17:02:17 | INFO | BI | CALL a function to plot category sales........
+2026-08-06 17:02:17 | INFO | BI | Creating chart: Sales by Category in East
+2026-08-06 17:02:18 | INFO | BI | Saved category chart: = docs\images\storytelling_category_sales_case.png
+2026-08-06 17:02:18 | INFO | BI | CALL a function to plot monthly sales........
+2026-08-06 17:02:18 | INFO | BI | Creating chart: Monthly Office Sales in East
+2026-08-06 17:02:18 | INFO | BI | Saved monthly chart: = docs\images\storytelling_monthly_sales_case.png
+2026-08-06 17:02:18 | INFO | BI | CALL a function to identify key results........
+2026-08-06 17:02:18 | INFO | BI | Identifying key results
+2026-08-06 17:02:18 | INFO | BI |   Selected region: East
+2026-08-06 17:02:18 | INFO | BI |   Leading category: Office
+2026-08-06 17:02:18 | INFO | BI |   Leading category sales: $456,342.94
+2026-08-06 17:02:18 | INFO | BI |   Strongest month: 2025-05
+2026-08-06 17:02:18 | INFO | BI |   Strongest month sales: $61,229.06
+2026-08-06 17:02:18 | INFO | BI | CALL a function to show charts........
+2026-08-06 17:02:34 | INFO | BI | Storytelling workflow complete
+2026-08-06 17:02:34 | INFO | BI | CLOSE chart windows to continue.
+2026-08-06 17:02:34 | INFO | BI | Terminate this process with CTRL+c as needed.
+2026-08-06 17:02:34 | INFO | BI | ========================
+2026-08-06 17:02:34 | INFO | BI | Executed successfully!
+2026-08-06 17:02:34 | INFO | BI | ========================
