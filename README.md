@@ -194,9 +194,9 @@ In your custom project:
 
 Replace these placeholders with screenshots from your own project run:
 
-![Total Sales by Region](./docs/images/Figure_1.png)
+![Total Sales by Region](./docs/images/Figure_3.png)
 
-![Total Sales by Product Category](./docs/images/Figure_2.png)
+![Total Sales by Product Category](./docs/images/Figure_4.png)
 
 ## Project Documentation
 
