@@ -41,31 +41,21 @@ but answer a different business question.
 
 ## Phase 4. Technical Modification
 
-Make one small technical modification to the example project.
+- The small modification that I made to the example project was modifying the code in order to compare sales of the regions for 2024 and 2025.
+- This change was in between moderate and challenging. It took some time to understand how to modify the code correctly.
+- Once the code was properly written, a new chart generated along with a new project report log.
 
-Possible modifications include:
+### Business Question
+Last year which region had the strongest sales, which region has the weakest sales, and do those number still hold true for the current year?
 
-- Change a selected value.
-- Change a chart title.
-- Change a chart label.
-- Change a chart palette.
-- Change a chart output file name.
-- Display in a different sort order.
-- Change a log message to be more clear or better formatted.
+**Explanation
 
-Describe your small technical modification to the example project.
+There are a few different reason that it is essential to know which region (and categories) had the strongest and weakest sales within a year.
 
-Include:
-
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
-
-Compared with the example project,
-explain what is different and why the change matters.
-
-Was it easy, or surprisingly challenging and why do you think so?
+- This information is needed for a company to know where they should allocate their time/energy, resources, and budget in order to ensure maximizing profitability.
+- Inventory control/improving cash flow
+- Labor scheduling/Eliminating Underperformance
+- Pricing Strategies/Identifying Marketing Trends
 
 ## Phase 5. Custom Project
 
@@ -80,27 +70,6 @@ Include:
 - Which tables you queried and which columns you used
 - Why those columns are relevant to your business goal
 - Any data limitations that affect your conclusions
-
-### Business Question
-
-State the exact business question you chose.
-
-For example:
-
-> Which product category has the lowest total sales in the selected region, and during which month are its sales weakest?
-
-Your question should be:
-
-- Clear
-- Specific
-- Answerable with the available data
-- Similar in scope to the example project
-
-Explain:
-
-- Why the question might matter to the business
-- What decision or next step the result could support
-- What **action** could be taken based on the answer
 
 ### Analysis Approach
 

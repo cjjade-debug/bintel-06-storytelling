@@ -129,12 +129,13 @@ git push -u origin main
 
 ## Custom Commands
 
-- New Images
+- New Images (Charts from PowerBI)
 - Regional Comparisons of Sales and Trends
 - Forecasting of June 2025 - Dec 2025
 - Forecasting CSV File
 - Forecasting Statsic Charts
 - Forecasting Interactive Visualization
+- Outputs Folder (includes images and HTML files)
 
 ## Notes
 
