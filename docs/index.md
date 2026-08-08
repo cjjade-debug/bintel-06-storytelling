@@ -45,6 +45,12 @@ but answer a different business question.
 - This change was in between moderate and challenging. It took some time to understand how to modify the code correctly.
 - Once the code was properly written, a new chart generated along with a new project report log.
 
+## Phase 4 Evidence
+
+![Regional Growth Comparison](./images/regional_growth_comparison_cjjade.png)
+![204 & 2025 Regional Sales](./images/regional_sales_2024_2025_cjjade.png)
+![Regional Year Comparison](./images/regional_year_comparison_cjjade.png)
+
 ### Business Question
 
 Last year which region had the strongest sales, which region has the weakest sales, and do those number still hold true for the current year?
@@ -60,30 +66,20 @@ There are a few different reason that it is essential to know which region (and 
 
 ## Phase 5. Custom Project
 
-Describe your custom BI storytelling project.
+The Custom project I choose to do for this project was investigating the sales of 2024, the first half of 2025, and then forecasting the sales for the months of June 2025 to December 2025.
 
-### Basis and Problem
+### The Data and Analysis
 
-Describe the data you started with.
+- The data that I started with came from sales_reporting_cjjade.csv. I used PowerBI to transform the data, so I could focus on sales for 2024 and 2025.
+- Later I wrote a code that used the data from sales_reporting_cjjade.csv. to create a second csv file called forecasts_2025-06_2025-12_lgb.csv. This data was used to create the forecasted charts.
 
-Include:
+### Question Analysis & Evidence
 
-- Which tables you queried and which columns you used
-- Why those columns are relevant to your business goal
-- Any data limitations that affect your conclusions
+For the first part of my question, I centered around the data for the sales of 2024 and the first part of 2025.
+I created a pie chart for both 2024 and 2025, to show the count of sales per category.
 
-### Analysis Approach
-
-Describe how you answered the question.
-
-Include:
-
-- How you filtered the reporting data
-- Which dimension you grouped by
-- Which measure you aggregated
-- Whether you sorted from highest to lowest or lowest to highest
-- How the first result guided the second part of the analysis
-- Which charts you created
+![Sales by Sum Percentage](./images/storytelling_category_sales_cjjade01.png)
+![Sales by Sum Number](./images/storytelling_category_sales_cjjade04.png)
 
 ### Charts and Evidence
 
