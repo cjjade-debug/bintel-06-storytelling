@@ -18,7 +18,7 @@ insight
     ↓
 story and recommended action <--- this is our final addition
 
-Author: CJ Jade
+Author: Denise Case
 Date: 2026-08
 
 Storytelling process:
@@ -43,7 +43,7 @@ Output:
 
 Terminal command to run this file from the root project folder:
 
-uv run python -m bizintel.storytelling_cjjade
+uv run python -m bizintel.storytelling_case
 
 OBS:
   Don't edit this file - it should remain a working example.
@@ -212,7 +212,7 @@ def summarize_category_sales(
     # that is independent of the original.
     df_region: pd.DataFrame = df_reporting.loc[
         df_reporting["Region"] == selected_region
-    ].copy()  # type: ignore
+    ].copy()  # pyright: ignore[reportAssignmentType]
 
     # If the slice is empty, raise an error to indicate that the selected region
     # we are interested in does not exist in the reporting data.

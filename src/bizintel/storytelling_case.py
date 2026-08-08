@@ -55,15 +55,15 @@ OBS:
 
 # === IMPORTS ===
 
-from numbers import Real
+from numbers import Real  # noqa: I001
 from pathlib import Path
 from typing import Final
 
-from datafun_toolkit.logger import log_path
-import matplotlib.pyplot as plt
-import pandas as pd
+from datafun_toolkit.logger import log_path  # type: ignore
+import matplotlib.pyplot as plt  # type: ignore
+import pandas as pd  # type: ignore
 
-from bizintel.utils_logger import LOG, log_header
+from bizintel.utils_logger import LOG, log_header  # type: ignore
 from bizintel.utils_viz import plot_bar, plot_line
 
 # === DECLARE CONSTANTS ===
@@ -212,7 +212,7 @@ def summarize_category_sales(
     # that is independent of the original.
     df_region: pd.DataFrame = df_reporting.loc[
         df_reporting["Region"] == selected_region
-    ].copy()
+    ].copy()  # type: ignore
 
     # If the slice is empty, raise an error to indicate that the selected region
     # we are interested in does not exist in the reporting data.
@@ -365,7 +365,7 @@ def summarize_monthly_sales(
     df_selected: pd.DataFrame = df_reporting.loc[
         (df_reporting["Region"] == selected_region)
         & (df_reporting["Category"] == selected_category)
-    ].copy()
+    ].copy()  # type: ignore
 
     # If the dice is empty,
     # raise an error to indicate that the selected region and category
