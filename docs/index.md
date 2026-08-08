@@ -48,7 +48,7 @@ but answer a different business question.
 ### Business Question
 Last year which region had the strongest sales, which region has the weakest sales, and do those number still hold true for the current year?
 
-**Explanation
+**Explanation**
 
 There are a few different reason that it is essential to know which region (and categories) had the strongest and weakest sales within a year.
 
