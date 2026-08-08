@@ -130,6 +130,11 @@ git push -u origin main
 ## Custom Commands
 
 - New Images
+- Regional Comparisons of Sales and Trends
+- Forecasting of June 2025 - Dec 2025
+- Forecasting CSV File
+- Forecasting Statsic Charts
+- Forecasting Interactive Visualization
 
 ## Notes
 
@@ -198,9 +203,9 @@ In your custom project:
 
 Replace these placeholders with screenshots from your own project run:
 
-![Total Sales by Region](./docs/images/Figure_3.png)
+![Total Sales by Region](./docs/images/storytelling_category_sales_case.png)
 
-![Total Sales by Product Category](./docs/images/Figure_4.png)
+![Total Sales by Product Category](./docs/images/storytelling_monthly_sales_case.png)
 
 ## Project Documentation
 
