@@ -75,7 +75,7 @@ The Custom project I choose to do for this project was investigating the sales o
 
 ### Question Analysis & Evidence
 
-## For the first part of my question
+## First Part of my Business Question
 
 - I focused my data around the sales of 2024 and the first part of 2025. I created a pie chart for both 2024 and 2025, to show the count of sales per category.
 
@@ -88,7 +88,7 @@ The Custom project I choose to do for this project was investigating the sales o
 ![2024 Sales by Count](./images/storytelling_category_sales_cjjade02.png)
 ![2025 Sales by Count](./images/storytelling_category_sales_cjjade03.png)
 
-## For the second part of my question
+## Second Part of my Business Question
 
 - I created a code which can be found in src/bizintel/forecast_lightgbm_jun2025_dec2025.py. Using the data found in sales_reporting_cjjade with PowerBI enabled me to forecast June to December 2025.
 - One of the output of this code is a new csv file was generated that gave the forecasted end of month sales total for June to December. Named forecasts_2025-06_2025-12_lgb.csv, loctaed in root folder.
@@ -98,7 +98,7 @@ The Custom project I choose to do for this project was investigating the sales o
 
 [View Interactive Sales Forecast](https://cjjade-debug.github.io/bintel-06-storytelling/outputs/sales_forecast_2025_jun_dec.html)
 
-- Below are two forecasting charts I created in PowerBI
+- Below are two forecasting charts I created in PowerBI (weekly line graph of sales)
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_01.png)
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_02.png)
 
@@ -118,3 +118,11 @@ The Custom project I choose to do for this project was investigating the sales o
 - Looking into customer engagement is a key in this step, as the data supports the claim we are losing loyal customers to competitors.
 
 ### Storytelling Final Thoughts
+
+# Question Summary
+
+- The first part of my business question I set out to answer, was which regions were the strongest and weakest in sales.
+- **Strongest:** East holds the position as the strongest, with the North coming right behind them. The strongest category showed to be Office category.
+- **Weakest:** The South holds the position as the weakest with the South-West coming very closely behind them. The weakest category showed to be the clothing category.
+- The second part of my business question was about the future of sales, and how this can help anticipate for the second half of the year.
+- The data while consistent is not where I think we could be. The company started out strong in January, but something occurred, to drop sales dramatically.
