@@ -95,7 +95,7 @@ The Custom project I choose to do for this project was investigating the sales o
 
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_03.png)
 
-<iframe src="../outputs/sales_forecast_2025_jun_dec.html" width="1000" height="600"></iframe>
+[View Sales Forecast 2025 (Jun-Dec)](../outputs/sales_forecast_2025_jun_dec.html)
 
 - Below are two forecasting charts I created in PowerBI
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_01.png)
