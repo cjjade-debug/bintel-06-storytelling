@@ -75,29 +75,33 @@ The Custom project I choose to do for this project was investigating the sales o
 
 ### Question Analysis & Evidence
 
-For the first part of my question, I centered around the data for the sales of 2024 and the first part of 2025.
-I created a pie chart for both 2024 and 2025, to show the count of sales per category.
+## For the first part of my question
+
+- I focused my data around the sales of 2024 and the first part of 2025. I created a pie chart for both 2024 and 2025, to show the count of sales per category.
 
 ![Sales by Sum Percentage](./images/storytelling_category_sales_cjjade01.png)
 ![Sales by Sum Number](./images/storytelling_category_sales_cjjade04.png)
 
-### Charts and Evidence
+- For the third and fourth chart I showed the sales by sum for each category. I created two different styles to showcase dollar amount and percentage.
 
-Create at least two connected charts.
+![2024 Sales by Count](./images/storytelling_category_sales_cjjade02.png)
+![2025 Sales by Count](./images/storytelling_category_sales_cjjade03.png)
 
-The first chart should answer the first part of your business question,
-often an initial comparison or result.
+## For the second part of my question
 
-The second chart should be a connected look deeper at that initial result.
+- I created a code which can be found in src/bizintel/forecast_lightgbm_jun2025_dec2025.py. Using the data found in sales_reporting_cjjade with PowerBI enabled me to forecast June to December 2025.
+- One of the output of this code is a new csv file was generated that gave the forecasted end of month sales total for June to December. Named forecasts_2025-06_2025-12_lgb.csv, loctaed in root folder.
+- To generate the chart/HTML I created two new files, src/bizintel/viz_forecast_static and src/bizintel/viz_forecast_intercative. The files worked with forecasts_2025-06_2025-12_lgb.csv to generate charts.
 
-For each chart:
+![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_03.png)
 
-- Use a clear title
-- Label the axes
-- Make the chart readable
-- Save the chart in the project
-- Display the chart in this documentation page
-- Explain what evidence the chart provides
+import plotly.express as px
+fig = px.scatter(x=[1, 2, 3], y=[4, 5, 6])
+fig.write_html("sales_forecast_2025_jun_dec.html")
+
+- Below are two forecasting charts I created in PowerBI
+![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_01.png)
+![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_02.png)
 
 ### Findings and Recommendation
 
