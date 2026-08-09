@@ -39,7 +39,7 @@ The example follows a general BI storytelling process:
 Your project should follow the same general process,
 but answer a different business question.
 
-## Phase 4. Technical Modification
+# Phase 4. Technical Modification
 
 - The small modification that I made to the example project was modifying the code in order to compare sales of the regions for 2024 and 2025.
 - This change was in between moderate and challenging. It took some time to understand how to modify the code correctly.
@@ -51,7 +51,11 @@ but answer a different business question.
 ![204 & 2025 Regional Sales](./images/regional_sales_2024_2025_cjjade.png)
 ![Regional Year Comparison](./images/regional_year_comparison_cjjade.png)
 
-### Business Question
+# Phase 5. Custom Project
+
+The Custom project I choose to do for this project was investigating the sales of 2024, the first half of 2025, and then forecasting the sales for the months of June 2025 to December 2025.
+
+## Business Question
 
 Last year which region had the strongest sales, which region has the weakest sales, and do those number still hold true for the current year?
 
@@ -64,18 +68,14 @@ There are a few different reason that it is essential to know which region (and 
 - Labor scheduling/Eliminating Underperformance
 - Pricing Strategies/Identifying Marketing Trends
 
-## Phase 5. Custom Project
-
-The Custom project I choose to do for this project was investigating the sales of 2024, the first half of 2025, and then forecasting the sales for the months of June 2025 to December 2025.
-
-### The Data and Analysis
+## The Data and Analysis
 
 - The data that I started with came from sales_reporting_cjjade.csv. I used PowerBI to transform the data, so I could focus on sales for 2024 and 2025.
 - Later I wrote a code that used the data from sales_reporting_cjjade.csv. to create a second csv file called forecasts_2025-06_2025-12_lgb.csv. This data was used to create the forecasted charts.
 
-### Question Analysis & Evidence
+## Question Analysis & Evidence
 
-## First Part of my Business Question
+### First Part of my Business Question
 
 - I focused my data around the sales of 2024 and the first part of 2025. I created a pie chart for both 2024 and 2025, to show the count of sales per category.
 
@@ -88,7 +88,7 @@ The Custom project I choose to do for this project was investigating the sales o
 ![2024 Sales by Count](./images/storytelling_category_sales_cjjade02.png)
 ![2025 Sales by Count](./images/storytelling_category_sales_cjjade03.png)
 
-## Second Part of my Business Question
+### Second Part of my Business Question
 
 - I created a code which can be found in src/bizintel/forecast_lightgbm_jun2025_dec2025.py. Using the data found in sales_reporting_cjjade with PowerBI enabled me to forecast June to December 2025.
 - One of the output of this code is a new csv file was generated that gave the forecasted end of month sales total for June to December. Named forecasts_2025-06_2025-12_lgb.csv, loctaed in root folder.
@@ -102,24 +102,24 @@ The Custom project I choose to do for this project was investigating the sales o
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_01.png)
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_02.png)
 
-### Findings and Recommendation
+## Findings and Recommendation
 
-## 2024 & 2025 Sales
+### 2024 & 2025 Sales
 
 - My finding shows that the East region is consistently out selling each region. The next behind them is the North region. The lowest of the regions has been shown to be South and South-West.
 - The next question that comes to mind, is why is this happen? What can we do to recover?
 - According to the data, the East is doing on average .85 million more than the South and South-West. It would be my recommendation to find out more, in order to develop a performance improvement plan.
 
-## Forecasting Sales
+### Forecasting Sales
 
 - The forecasted sales is consistent but does not give the numbers we show in 2024, again the question that stands is why? What happened?
 - The lowest month recorded was March since then the company has managed to rise in sales consistently. This is still startling as January was the highest grossing month on record.
 - It is vital as a company we figure out why the drop in sales in February and March happened.
 - Looking into customer engagement is a key in this step, as the data supports the claim we are losing loyal customers to competitors.
 
-### Storytelling Final Thoughts
+## Storytelling Final Thoughts
 
-# Question Summary
+### Question Summary
 
 - The first part of my business question I set out to answer, was which regions were the strongest and weakest in sales.
 - **Strongest:** East holds the position as the strongest, with the North coming right behind them. The strongest category showed to be Office category.
