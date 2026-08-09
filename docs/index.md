@@ -81,6 +81,7 @@ The Custom project I choose to do for this project was investigating the sales o
 
 ![Sales by Sum Percentage](./images/storytelling_category_sales_cjjade01.png)
 ![Sales by Sum Number](./images/storytelling_category_sales_cjjade04.png)
+![Sales by Region](./images/storytelling_region_sales_cjjade01.png)
 
 - For the third and fourth chart I showed the sales by sum for each category. I created two different styles to showcase dollar amount and percentage.
 
@@ -103,31 +104,17 @@ The Custom project I choose to do for this project was investigating the sales o
 
 ### Findings and Recommendation
 
-Describe what you found and what you recommend.
+## 2024 & 2025 Sales
 
-Include:
+- My finding shows that the East region is consistently out selling each region. The next behind them is the North region. The lowest of the regions has been shown to be South and South-West.
+- The next question that comes to mind, is why is this happen? What can we do to recover?
+- According to the data, the East is doing on average .85 million more than the South and South-West. It would be my recommendation to find out more, in order to develop a performance improvement plan.
 
-- The main result of your analysis
-- Whether the result was expected or surprising
-- A specific recommended business action based on the data
-- One reasonable action or next question
-- Any limitations or cautions
+## Forecasting Sales
 
-### Storytelling Summary
+- The forecasted sales is consistent but does not give the numbers we show in 2024, again the question that stands is why? What happened?
+- The lowest month recorded was March since then the company has managed to rise in sales consistently. This is still startling as January was the highest grossing month on record.
+- It is vital as a company we figure out why the drop in sales in February and March happened.
+- Looking into customer engagement is a key in this step, as the data supports the claim we are losing loyal customers to competitors.
 
-Summarize your custom storytelling project.
-
-Include:
-
-- The business question / problem / goal you addressed
-- The data you started with
-- The main result
-- The insight you produced
-- The action or next question you recommended
-- What you learned about BI storytelling
-- How this process could support business intelligence in general
-
-Display at least two charts along with your narrative:
-
-1. A chart showing the initial comparison
-2. A chart showing the deeper analysis of the selected result
+### Storytelling Final Thoughts
