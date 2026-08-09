@@ -95,9 +95,7 @@ The Custom project I choose to do for this project was investigating the sales o
 
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_03.png)
 
-import plotly.express as px
-fig = px.scatter(x=[1, 2, 3], y=[4, 5, 6])
-fig.write_html("sales_forecast_2025_jun_dec.html")
+<iframe src="../outputs/sales_forecast_2025_jun_dec.html" width="1000" height="600"></iframe>
 
 - Below are two forecasting charts I created in PowerBI
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_01.png)
