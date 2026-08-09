@@ -95,7 +95,7 @@ The Custom project I choose to do for this project was investigating the sales o
 
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_03.png)
 
-[View Interactive Sales Forecast (Jun-Dec 2025)](https://raw.githubusercontent.com/cjjade-debug/bintel-06-storytelling/main/outputs/sales_forecast_2025_jun_dec.html)
+[View Interactive Sales Forecast](https://cjjade-debug.github.io/bintel-06-storytelling/outputs/sales_forecast_2025_jun_dec.html)
 
 - Below are two forecasting charts I created in PowerBI
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_01.png)
