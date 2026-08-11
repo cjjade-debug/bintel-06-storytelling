@@ -204,6 +204,7 @@ In your custom project:
 
 **Displayed below are the images that CJ Jade generated through Python,**
 **the images that were created by PowerBI can be found on the Project Documentation Page**
+[Project Documentation Page (Index.md)](https://cjjade-debug.github.io/bintel-06-storytelling/)
 
 ![Regional Growth Comparison](./docs/images/regional_growth_comparison_cjjade.png)
 
