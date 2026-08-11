@@ -202,8 +202,8 @@ In your custom project:
 - this `README.md` should include your commands, process, and visuals
 - `docs/index.md` should include your narrative
 
-**Below I am displaying the images I have generated through Python,**
-**the images that were ctrated by PowerBI can be found on Index.md**
+**Displayed below are the images that CJ Jade generated through Python,**
+**the images that were created by PowerBI can be found on the Project Documentation Page**
 
 ![Regional Growth Comparison](./docs/images/regional_growth_comparison_cjjade.png)
 

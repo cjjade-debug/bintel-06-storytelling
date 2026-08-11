@@ -48,7 +48,9 @@ but answer a different business question.
 ## Phase 4 Evidence
 
 ![Regional Growth Comparison](./images/regional_growth_comparison_cjjade.png)
+
 ![204 & 2025 Regional Sales](./images/regional_sales_2024_2025_cjjade.png)
+
 ![Regional Year Comparison](./images/regional_year_comparison_cjjade.png)
 
 # Phase 5. Custom Project
@@ -80,12 +82,15 @@ There are a few different reason that it is essential to know which region (and 
 - I focused my data around the sales of 2024 and the first part of 2025. I created a pie chart for both 2024 and 2025, to show the count of sales per category.
 
 ![Sales by Sum Percentage](./images/storytelling_category_sales_cjjade01.png)
+
 ![Sales by Sum Number](./images/storytelling_category_sales_cjjade04.png)
+
 ![Sales by Region](./images/storytelling_region_sales_cjjade01.png)
 
 - For the third and fourth chart I showed the sales by sum for each category. I created two different styles to showcase dollar amount and percentage.
 
 ![2024 Sales by Count](./images/storytelling_category_sales_cjjade02.png)
+
 ![2025 Sales by Count](./images/storytelling_category_sales_cjjade03.png)
 
 ### Second Part of my Business Question
@@ -99,7 +104,9 @@ There are a few different reason that it is essential to know which region (and 
 [View Interactive Sales Forecast](https://cjjade-debug.github.io/bintel-06-storytelling/outputs/sales_forecast_2025_jun_dec.html)
 
 - Below are two forecasting charts I created in PowerBI (weekly line graph of sales)
+
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_01.png)
+
 ![Forecasted Sales for Jun-Dec of 2025](./images/storytelling_monthly_forecast_cjjade_02.png)
 
 ## Findings and Recommendation
