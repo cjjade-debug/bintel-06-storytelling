@@ -39,7 +39,7 @@ to complete:
 
 ## Project Instructions
 
-# To run this code
+### To run this code
 
 - **uv run python -m bizintel.storytelling_cjjade**
 - **uv run python -m bizintel.storytelling_regional_comparison** (graphs do not generate but are saved to docs/image)
