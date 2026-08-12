@@ -41,10 +41,10 @@ to complete:
 
 # To run this code
 
-- uv run python -m bizintel.storytelling_cjjade
-- uv run python -m bizintel.storytelling_regional_comparison (graphs do not generate but are saved to docs/image)
-- uv run python -m bizintel.forecast_lightgbm_jun2025_dec2025 (This is the file that generates the forecasting .csv file and report, no graphs generate)
-- uv run python -m bizintel.viz_forecast_static (Forecasting Graph will generate)
+- **uv run python -m bizintel.storytelling_cjjade**
+- **uv run python -m bizintel.storytelling_regional_comparison** (graphs do not generate but are saved to docs/image)
+- **uv run python -m bizintel.forecast_lightgbm_jun2025_dec2025** (This is the file that generates the forecasting .csv file and report, no graphs generate)
+- **uv run python -m bizintel.viz_forecast_static** (Forecasting Graph will generate)
 
 ## Custom Commands
 
