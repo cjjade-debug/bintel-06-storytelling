@@ -347,3 +347,95 @@
 2026-08-07 18:33:04 | INFO | BI | ========================
 2026-08-07 18:33:04 | INFO | BI | Executed successfully!
 2026-08-07 18:33:04 | INFO | BI | ========================
+2026-08-11 20:33:05 | INFO | BI | === RUN START ===
+2026-08-11 20:33:05 | INFO | BI | project=BI
+2026-08-11 20:33:05 | INFO | BI | repo_dir=bintel-06-storytelling
+2026-08-11 20:33:05 | INFO | BI | python=3.14.6
+2026-08-11 20:33:05 | INFO | BI | os=Windows 11
+2026-08-11 20:33:05 | INFO | BI | shell=powershell
+2026-08-11 20:33:05 | INFO | BI | cwd=.
+2026-08-11 20:33:05 | INFO | BI | github_actions=False
+2026-08-11 20:33:05 | INFO | BI | ========================
+2026-08-11 20:33:05 | INFO | BI | START main()
+2026-08-11 20:33:05 | INFO | BI | ========================
+2026-08-11 20:33:05 | INFO | BI | Input reporting data from: = data\reporting\sales_reporting_case.csv
+2026-08-11 20:33:05 | INFO | BI | CALL a function to load reporting-ready data........
+2026-08-11 20:33:05 | INFO | BI | Loading reporting-ready data
+2026-08-11 20:33:05 | INFO | BI |   Loaded 2392 reporting rows
+2026-08-11 20:33:05 | INFO | BI |   Verified 14 reporting columns
+2026-08-11 20:33:05 | INFO | BI | CALL a function to summarize sales by category........
+2026-08-11 20:33:05 | INFO | BI | Summarizing category sales for Region = 'East'
+2026-08-11 20:33:05 | INFO | BI |   Categories summarized: 4
+2026-08-11 20:33:05 | INFO | BI | CALL a function to select the leading category........
+2026-08-11 20:33:05 | INFO | BI |   Selected leading category for deeper analysis: Office
+2026-08-11 20:33:05 | INFO | BI | CALL a function to summarize monthly sales........
+2026-08-11 20:33:05 | INFO | BI | Summarizing monthly sales for Region = 'East'
+2026-08-11 20:33:05 | INFO | BI | Summarizing monthly sales for Category = 'Office'
+2026-08-11 20:33:05 | INFO | BI |   Months summarized: 12
+2026-08-11 20:33:05 | INFO | BI | CALL a function to plot category sales........
+2026-08-11 20:33:05 | INFO | BI | Creating chart: Sales by Category in East
+2026-08-11 20:33:05 | INFO | BI | Saved category chart: = docs\images\storytelling_category_sales_case.png
+2026-08-11 20:33:05 | INFO | BI | CALL a function to plot monthly sales........
+2026-08-11 20:33:05 | INFO | BI | Creating chart: Monthly Office Sales in East
+2026-08-11 20:33:05 | INFO | BI | Saved monthly chart: = docs\images\storytelling_monthly_sales_case.png
+2026-08-11 20:33:05 | INFO | BI | CALL a function to identify key results........
+2026-08-11 20:33:05 | INFO | BI | Identifying key results
+2026-08-11 20:33:05 | INFO | BI |   Selected region: East
+2026-08-11 20:33:05 | INFO | BI |   Leading category: Office
+2026-08-11 20:33:05 | INFO | BI |   Leading category sales: $456,342.94
+2026-08-11 20:33:05 | INFO | BI |   Strongest month: 2025-05
+2026-08-11 20:33:05 | INFO | BI |   Strongest month sales: $61,229.06
+2026-08-11 20:33:05 | INFO | BI | CALL a function to show charts........
+2026-08-11 20:33:16 | INFO | BI | Storytelling workflow complete
+2026-08-11 20:33:16 | INFO | BI | CLOSE chart windows to continue.
+2026-08-11 20:33:16 | INFO | BI | Terminate this process with CTRL+c as needed.
+2026-08-11 20:33:16 | INFO | BI | ========================
+2026-08-11 20:33:16 | INFO | BI | Executed successfully!
+2026-08-11 20:33:16 | INFO | BI | ========================
+2026-08-11 20:34:19 | INFO | BI | === RUN START ===
+2026-08-11 20:34:19 | INFO | BI | project=BI
+2026-08-11 20:34:19 | INFO | BI | repo_dir=bintel-06-storytelling
+2026-08-11 20:34:19 | INFO | BI | python=3.14.6
+2026-08-11 20:34:19 | INFO | BI | os=Windows 11
+2026-08-11 20:34:19 | INFO | BI | shell=powershell
+2026-08-11 20:34:19 | INFO | BI | cwd=.
+2026-08-11 20:34:19 | INFO | BI | github_actions=False
+2026-08-11 20:34:19 | INFO | BI | ========================
+2026-08-11 20:34:19 | INFO | BI | START Regional Comparison Analysis
+2026-08-11 20:34:19 | INFO | BI | ========================
+2026-08-11 20:34:19 | INFO | BI | Input reporting data from: = data\reporting\sales_reporting_case.csv
+2026-08-11 20:34:19 | INFO | BI | CALL a function to load reporting-ready data........
+2026-08-11 20:34:19 | INFO | BI | Loading reporting-ready data
+2026-08-11 20:34:19 | INFO | BI |   Loaded 2392 reporting rows
+2026-08-11 20:34:19 | INFO | BI |   Verified 15 reporting columns
+2026-08-11 20:34:19 | INFO | BI | CALL a function to filter data by year........
+2026-08-11 20:34:19 | INFO | BI | Filtering data for years: ['2024', '2025']
+2026-08-11 20:34:19 | INFO | BI |   Filtered to 2392 rows for 2 year(s)
+2026-08-11 20:34:19 | INFO | BI | CALL a function to summarize regional sales by year........
+2026-08-11 20:34:19 | INFO | BI | Summarizing regional sales by year
+2026-08-11 20:34:19 | INFO | BI |   Regional-yearly combinations: 12
+2026-08-11 20:34:19 | INFO | BI | CALL a function to calculate year-over-year growth........
+2026-08-11 20:34:19 | INFO | BI | Calculating year-over-year growth
+2026-08-11 20:34:19 | INFO | BI |   Growth rates calculated for 6 regions
+2026-08-11 20:34:19 | INFO | BI | CALL a function to plot regional sales by year........
+2026-08-11 20:34:20 | INFO | BI | Saved regional sales chart: = docs\images\regional_sales_2024_2025.png
+2026-08-11 20:34:20 | INFO | BI | CALL a function to plot growth rates........
+2026-08-11 20:34:20 | INFO | BI | Saved growth rates chart: = docs\images\regional_growth_comparison.png
+2026-08-11 20:34:20 | INFO | BI | CALL a function to plot regional monthly trends........
+2026-08-11 20:34:21 | INFO | BI | Saved regional monthly trend chart: = docs\images\regional_year_comparison.png
+2026-08-11 20:34:21 | INFO | BI | CALL a function to identify key results........
+2026-08-11 20:34:21 | INFO | BI | Identifying key results
+2026-08-11 20:34:21 | INFO | BI |   Total sales (all regions, all years): $3,673,389.85
+2026-08-11 20:34:21 | INFO | BI |   Best region in 2025: East ($450,417.27)
+2026-08-11 20:34:21 | INFO | BI |   Fastest growing region: South-West (-18.68%)
+2026-08-11 20:34:21 | INFO | BI |   Regions with negative growth: 6
+2026-08-11 20:34:21 | INFO | BI |     - South-West: -18.68%
+2026-08-11 20:34:21 | INFO | BI |     - West: -27.11%
+2026-08-11 20:34:21 | INFO | BI |     - South: -36.56%
+2026-08-11 20:34:21 | INFO | BI |     - Central: -36.85%
+2026-08-11 20:34:21 | INFO | BI |     - North: -38.32%
+2026-08-11 20:34:21 | INFO | BI |     - East: -42.57%
+2026-08-11 20:34:21 | INFO | BI | Regional comparison workflow complete
+2026-08-11 20:34:21 | INFO | BI | ========================
+2026-08-11 20:34:21 | INFO | BI | Executed successfully!
+2026-08-11 20:34:21 | INFO | BI | ========================

@@ -21,6 +21,8 @@ dependencies = [
     "pandas",          # tabular data manipulation
     "seaborn",         # statistical data visualization
     "matplotlib",      # plotting
+     "joblib",          # used to save the trained LightGBM model
+     "lightgbm",        # gradient-boosted trees for the forecasting model
 ]
 
 [project.optional-dependencies]

@@ -12,7 +12,7 @@ from abc import ABC  # noqa: I001
 import argparse
 import sys
 
-import joblib  # type: ignore
+import joblib  # pyright: ignore[reportMissingImports] # noqa: W291
 import lightgbm as lgb  # type: ignore
 import numpy as np  # type: ignore
 import pandas as pd  # type: ignore

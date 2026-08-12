@@ -6,30 +6,24 @@
 
 > Professional Python project: BI storytelling with smart sales data.
 
-## Project Description
+## CJ Jade's Project Description
 
-This project focuses on addressing one specific business goal
-end to end and telling a story with data.
+This project focuses on the sales of 2024, and the sales of the first half of 2025 (current year),
+with the goal of investigating, analyzing and forecasting the strongest and weakest regions.
 
-We learn to:
-
-- define a clear business question and KPI (key performance indicator)
-- use reporting-ready data to answer the business question
-- summarize and analyze the relevant data
-- create connected charts that support the findings
-- identify meaningful business insights
-- write a clear, actionable business recommendation
-- tell a story with data
+Within this project we will explore the dataset of sales_reporting_cjjade.csv, using both
+Python and PowerBI to analyze the current sales data and forecast future sales for June to December of 2025.
 
 ## Working Files
 
-You'll work with these areas:
+We'll work with these areas:
 
-- **data/reporting** - reporting-ready data generated earlier
-- **docs/** - project narrative and documentation
-- **src/bizintel/** - the app is an example; run only (copy to a new file for your work)
-- **pyproject.toml** - update authorship & links
-- **zensical.toml** - update authorship & links
+- **data/reporting** - sales_reporting_cjjade.csv
+- **docs/** - Project Narrative and Documentation
+- **src/bizintel/** - app_cjjade.py, forecast_lightgbm_jun2025_dec2025.py, storytelling_cjjade.py, storytelling_regional_comparison.py,
+viz_forecast_interactive.py, & viz_forecast_static.py
+- **pyproject.toml** - Update authorship & Links
+- **zensical.toml** - Update authorship & Links
 
 ## Instructions (pro-analytics-02)
 
@@ -43,26 +37,24 @@ to complete:
 4. Phase 4. **Modify**
 5. Phase 5. **Apply**
 
-## Challenges
+## Project Instructions
 
-Challenges are expected.
-Sometimes instructions may not quite match your operating system.
-When issues occur, share screenshots, error messages, and details about what you tried.
-Working through issues is part of implementing professional projects.
+# To run this code
 
-## Success
+- uv run python -m bizintel.storytelling_cjjade
+- uv run python -m bizintel.storytelling_regional_comparison (graphs do not generate but are saved to docs/image)
+- uv run python -m bizintel.forecast_lightgbm_jun2025_dec2025 (This is the file that generates the forecasting .csv file and report, no graphs generate)
+- uv run python -m bizintel.viz_forecast_static (Forecasting Graph will generate)
 
-After completing Phase 1. **Start & Run**,
-you'll have your own GitHub project,
-and running the example module will print out:
+## Custom Commands
 
-```shell
-========================
-Executed successfully!
-========================
-```
-
-A new file `project.log` will appear in the root project folder.
+- New Images (Charts from PowerBI)
+- Regional Comparisons of Sales and Trends
+- Forecasting of June 2025 - Dec 2025
+- Forecasting CSV File
+- Forecasting Statsic Charts
+- Forecasting Interactive Visualization
+- Outputs Folder (includes images and HTML files)
 
 ## Command Reference
 
@@ -103,10 +95,10 @@ uvx pre-commit run --all-files
 uvx pre-commit run --all-files
 
 # OPTIONAL: run the example module
-uv run python -m bizintel.app_case
+uv run python -m bizintel.app_cjjade
 
 # TASK 1: run the example storytelling module for an example problem
-uv run python -m bizintel.storytelling_case
+uv run python -m bizintel.storytelling_cjjade
 
 # TASK 2: run your own storytelling module that looks at a different problem
 # add your command in the line below
@@ -127,16 +119,6 @@ git push -u origin main
 
 </details>
 
-## Custom Commands
-
-- New Images (Charts from PowerBI)
-- Regional Comparisons of Sales and Trends
-- Forecasting of June 2025 - Dec 2025
-- Forecasting CSV File
-- Forecasting Statsic Charts
-- Forecasting Interactive Visualization
-- Outputs Folder (includes images and HTML files)
-
 ## Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
@@ -152,55 +134,7 @@ You accidentally started Python interactive mode.
 It happens.
 Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 
-## Example Output (Remove or replace this Section after You Verify)
-
-```shell
-| BI | Loading reporting-ready data
-| BI |   Loaded 2392 reporting rows
-| BI |   Verified 14 reporting columns
-| BI | CALL a function to summarize sales by category........
-| BI | Summarizing category sales for Region = 'East'
-| BI |   Categories summarized: 4
-| BI | CALL a function to select the leading category........
-| BI |   Selected leading category for deeper analysis: Office
-| BI | CALL a function to summarize monthly sales........
-| BI | Summarizing monthly sales for Region = 'East'
-| BI | Summarizing monthly sales for Category = 'Office'
-| BI |   Months summarized: 12
-| BI | CALL a function to plot category sales........
-| BI | Creating chart: Sales by Category in East
-| BI | Saved category chart: = docs\images\storytelling_category_sales_case.png
-| BI | CALL a function to plot monthly sales........
-| BI | Creating chart: Monthly Office Sales in East
-| BI | Saved monthly chart: = docs\images\storytelling_monthly_sales_case.png
-| BI | CALL a function to identify key results........
-| BI | Identifying key results
-| BI |   Selected region: East
-| BI |   Leading category: Office
-| BI |   Leading category sales: $456,342.94
-| BI |   Strongest month: 2025-05
-| BI |   Strongest month sales: $61,229.06
-| BI | CALL a function to show charts........
-| BI | App workflow complete
-| BI | CLOSE chart windows to continue.
-| BI | Terminate this process with CTRL+c as needed.
-| BI | ========================
-| BI | Executed successfully!
-| BI | ========================
-```
-
 ## Findings and Visuals
-
-Take screenshots of your charts and provide them here with a discussion.
-In Markdown, display a figure using:
-an exclamation mark immediately followed by square brackets containing a useful caption
-immediately followed by parentheses containing the relative path to your figure.
-
-In your custom project:
-
-- your figures and narrative should reflect your work
-- this `README.md` should include your commands, process, and visuals
-- `docs/index.md` should include your narrative
 
 **Displayed below are the images that CJ Jade generated through Python,**
 **the images that were created by PowerBI can be found on the Project Documentation Page**
